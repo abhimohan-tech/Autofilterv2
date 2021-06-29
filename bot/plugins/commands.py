@@ -90,7 +90,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/new_moviyzz'),
-        InlineKeyboardButton('Our Channel', url ='https://t.me/joinchat/WFh6kjxLamkxMmFl')
+        InlineKeyboardButton('Our Channel', url ='https://t.me/joinchat/CQP6v7lynMU0NTBl')
     ],[
         InlineKeyboardButton('Support Our Group 🙏', url='https://t.me/new_moviyzz')
     ],[ 
