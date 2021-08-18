@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Our Group', url="https://t.me/new_moviyzz"
+                                    'Our Group', url="https://t.me/ff_new_movies_group"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Our Group', url="https://t.me/new_moviyzz"
+                                    'Our Group', url="https://t.me/ff_new_movies_group"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Our Group', url="https://t.me/new_moviyzz"
+                                    'Our Group', url="https://t.me/ff_new_movies_group"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/new_moviyzz'),
-        InlineKeyboardButton('Our Channel', url ='https://t.me/joinchat/CQP6v7lynMU0NTBl')
+        InlineKeyboardButton('Developers', url='https://t.me/ff_new_movies_group'),
+        InlineKeyboardButton('Movies Bot', url ='https://t.me/Rocky_boy_Bot')
     ],[
-        InlineKeyboardButton('Support Our Group 🙏', url='https://t.me/new_moviyzz')
+        InlineKeyboardButton('Support Our Group 🙏', url='https://t.me/ff_new_movies_group')
     ],[ 
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
