@@ -87,7 +87,7 @@ async def connect(bot: Bot, update):
         await update.reply_text("Channel Aldready In Db...!!!")
         return
     
-    wait_msg = await update.reply_text("Please Wait Till I Add All Your Files From Channel To Db\n\n<i>This May Take 10 or 15 Mins Depending On Your No. Of Files In Channel.....</i>\n\nUntil Then Please Dont Sent Any Other Command Or This Operation May Be Intrupted....")
+    wait_msg = await update.reply_text("Please Wait Till I Add All Your Files From Channel To Db\n\n<i>This May Take 10 or 15 Mins Depending On Your No. Of Files In Channel.....</i>\n\nUntil Then Please Dont Sent Any Other Command Or This Operation May Be Interrupted....")
     
     try:
         type_list = ["video", "audio", "document"]
@@ -281,7 +281,7 @@ async def delall(bot: Bot, update):
     await db.delete_all(chat_id)
     await recacher(chat_id, True, True, bot, update)
     
-    await update.reply_text("Sucessfully Deleted All Connected Chats From This Group....")
+    await update.reply_text("Successfully Deleted All Connected Chats From This Group....")
 
 
 @Client.on_message(filters.channel & (filters.video | filters.audio | filters.document) & ~filters.edited, group=0)
